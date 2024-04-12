@@ -27,4 +27,4 @@
 
 ### Решение
 
-[В папке www](https://github.com/allseenn/html/tree/main/02.Tasks/www)
+[В папке 02.Tasks](https://github.com/allseenn/html/tree/main/02.Tasks/)
