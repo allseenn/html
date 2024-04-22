@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+}
+
+.header{
+    padding-top: 40px;
+}
+
+.logo_text{
+    padding-top: 45;
+}
+
+.logo_grow{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logo_be{
+    
+    color: #F25822;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.menu{
+    padding-top: 51px;
+}
+
+.menu_link{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main{
+    margin-top: 164px;
+}
+
+.text_h1{
+    color: #000;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.text{
+    color: #888;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.buttons{
+    padding-top 37px;
+}
+
+.button1{
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+}
+
+.button1_span{
+    color: #FFF;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.button2{
+    color: #AAA;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.photo{
+margin-top: 162.713px;
+width: 544.814px;
+height: 374.843px;
+flex-shrink: 0;
+}
+
+.footer{
+    margin-top: 162.45px;
+    padding-top: 97px;
+}
