@@ -16,9 +16,14 @@
 }
 
 .container {
-    width: 1147.3px;
+    max-width: 1147px;
     margin: 0 auto;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.nav{
+    width: 411px;
 }
 
 .header__link {
@@ -30,12 +35,25 @@ margin-top: 160px;
 margin-bottom: 197px;
 }
 
-.subtitle {
-    margin-bottom: 10px;
+.top__info{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
 }
 
 .title{
+    color: #3A68B8;
     margin-bottom: 40px;
+}
+
+
+.subtitle {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.text{
+    color: #fff;
 }
 
 .top__buttons{
@@ -49,13 +67,15 @@ margin-bottom: 197px;
     border-radius: 5px;
     padding: 1rem 2rem;
     text-decoration: none;
-    border: #3A68B8;
+    border: 2px solid transparent;
+    transition: all 0.3s;
 }
 
 .buttons:hover {
     background-color: #fff;
     color: darkblue;
-    border: 1px solid darkblue;
+    border: 2px solid darkblue;
+
 }
 
 .fa-play {
@@ -64,5 +84,5 @@ margin-bottom: 197px;
 
 .flex {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
 }
