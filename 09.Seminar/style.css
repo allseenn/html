@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #020A18;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.top{
+    padding-bottom: 99px;
+}
+
+.header {
+    padding-top: 39px;
+    padding-bottom: 39px;
+
+}
+
+.container {
+    max-width: 1147px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.nav{
+    width: 411px;
+}
+
+.header__link {
+    text-decoration: none;
+}
+
+.top__content {
+margin-top: 160px;
+margin-bottom: 197px;
+}
+
+.top__info{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.title{
+    color: #3A68B8;
+    margin-bottom: 40px;
+}
+
+
+.subtitle {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.text{
+    color: #fff;
+}
+
+.top__buttons{
+    margin-top: 40px;
+}
+
+.buttons{
+    background-color: #3A68B8;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+}
+
+.buttons:hover {
+    background-color: #fff;
+    color: darkblue;
+    border: 2px solid darkblue;
+
+}
+
+.fa-play {
+    margin-right: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content:space-between;
+}
+
+.content{
+    display: grid;
+    gap: 30px;
+    grid-template-columns:
+    repeat(3, 362px);
+    justify-content: center;
+    padding-top: 264px;
+    padding-bottom: 243px;
+}
+
+.item{
+    border-radius: 10px;
+    background: #132035;
+    padding: 30px;
+    display: grid;
+    justify-content: center;
+    grid: 30px;
+}
+
+.item_big{
+    grid-column: span 2;
+    grid-row: span 2;
+    gap: 60px;
+}
+
+.heading {
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 31.25px */
+}
+
+.item__text {
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 25.6px */
+}
