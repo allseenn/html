@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.center{
+    padding-left: calc(50% - 580px);
+    padding-right: calc(50% - 580px);
+}
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #2F2E41;
+    display: flex;
+    gap: 32px;
+}
+
+a {
+    text-decoration: none; 
+}
+
+.header__link {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.top {
+    padding-top: 84px;
+    padding-bottom: 84px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+
+.title {
+    width: 570px;
+    color: #6C63FF;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 113px;
+    color: #6C63FF;
+    mix-blend-mode: normal;
+}
+
+.about{
+    padding-top: 64px;
+    padding-bottom: 194px;
+}
+
+.heading {
+    color: #6C63FF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    /* 166.667% */
+}
+
+.about__content{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__text{
+    width: 462px;
+    color: #7D7987;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px; /* 166.667% */
+}
+
+@media(max-width: 1024px) {
+    .center{
+        padding-left: calc(50% - 360px);
+        padding-right: calc(50% - 360px);
+    }
+    .about__content{
+        justify-content: center;
+        gap: 32px;
+    }
+    .heading {
+        text-align: center;
+    }
+}
+
+@media(max-width: 767px) {
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .header {
+        justify-content: center;
+    }
+    .header__link {
+        font-size: 20px;
+    }
+    .top {
+        justify-content: center;
+    }
+    .title {
+        font-size: 48px;
+        line-height: 156px;
+        text-align: center;
+    }
+}
