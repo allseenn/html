@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+summary{
+    display: block;
+}
+
+summary::-webkit-details-marker{
+    display: none;
+}
+
+summary::before{
+    content: "<open>";
+    margin-right: 5px;
+}
+
+details[open] > summary::before{
+    content: "<close>";
+}
+
+body{
+    padding-bottom: 350px;
+}
+
+.video-box {
+    width: 100vw;
+    height: 500vw;
+    position: relative;
+}
+
+.video-heading {
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    z-index: 0;
+}
+
+.video {
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+}
