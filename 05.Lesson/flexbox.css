@@ -1,0 +1,45 @@
+.header{
+    height: 150px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 60px;
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo{
+    width: 35px;
+    height: 25px;
+    background-color: darkred;
+}
+
+.content{
+    display: flex;
+    height: 200px;
+    background: #ccc;
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+}
+
+.block{
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.block-2 {
+    align-self: center;
+}
+
+.block-3 {
+    align-self: end;
+}
