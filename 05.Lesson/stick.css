@@ -1,0 +1,12 @@
+.block{
+    height: 350px;
+    bottom: 1px solid #000;
+    position: relative;
+}
+
+.item {
+    background-color: gray;
+    height: 50px;
+    position: sticky;
+    top: 0;
+}
