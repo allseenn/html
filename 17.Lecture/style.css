@@ -1,0 +1,12 @@
+.text-color{
+    color: red;
+}
+
+.center{
+    padding-left: calc(50% - 580px);
+    padding-right: calc(50% - 580px);
+}
+
+.product-box{
+    gap: 32px;
+}
